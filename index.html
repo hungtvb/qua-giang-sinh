@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<title>Đêm Tuyết Rơi — Merry Christmas</title>
+<link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+<div id="stage">
+  <canvas id="world"></canvas>
+
+  <div id="line" class="hidden"></div>
+
+  <div id="letter" class="hidden" aria-hidden="true">
+    <div class="letter-inner">
+      <h1>Merry Christmas</h1>
+      <p class="dear">Gửi vợ iu,</p>
+      <p>Đêm nay anh gom hết tuyết của mùa đông, thắp lên một cây thông nhỏ — chỉ để nói một điều giản dị:</p>
+      <p>Cảm ơn em, vì đã ở bên anh thêm một mùa Giáng Sinh nữa. Ở cạnh em, những ngày bình thường nhất cũng ấm như ánh đèn đêm nay.</p>
+      <p>Chúc vợ iu một mùa lễ thật an lành, nhiều tiếng cười, và luôn được yêu thương như em xứng đáng.</p>
+      <p>Mùa đông nào có em, mùa đông đó là nhà.</p>
+      <p class="sign">— Chồng của em</p>
+      <p class="credit">Nhạc piano: Salamander Grand Piano (CC BY 3.0)</p>
+    </div>
+  </div>
+
+  <canvas id="front"></canvas>
+  <button id="replay" class="hidden" title="Xem lại từ đầu">&#8635;</button>
+  <div id="vignette"></div>
+</div>
+
+<audio id="music" src="assets/audio/music.mp3" loop preload="auto"></audio>
+<audio id="bells" src="assets/audio/bells.mp3" preload="auto"></audio>
+<audio id="chime" src="assets/audio/chime.mp3" preload="auto"></audio>
+
+<script src="app.js?v=1"></script>
+</body>
+</html>
