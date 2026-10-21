@@ -35,6 +35,8 @@ body {
 #stage { position: fixed; inset: 0; overflow: hidden; }
 canvas { position: absolute; inset: 0; display: block; }
 #world { z-index: 1; }
+#frost { z-index: 2; transition: opacity 1.6s ease; }
+#frost.melted { opacity: 0; pointer-events: none; }
 #front { z-index: 4; pointer-events: none; }
 
 #vignette {
